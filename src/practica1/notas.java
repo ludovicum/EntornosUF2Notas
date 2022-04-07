@@ -74,8 +74,8 @@ public class notas {
 	 * cada UF y la suma de todas para obtener la nota definitiva.
 	 */
 	public void Calculonotas() {
-		acu1 = nota1 * 0.35;
-		acu2 = nota2 * 0.35;
+		acu1 = nota1 * 0.30;
+		acu2 = nota2 * 0.40;
 		acu3 = nota3 * 0.30;
 
 		def = acu1 + acu2 + acu3;
