@@ -106,15 +106,15 @@ public class notas {
 	 * anteriores, que el alumno ha aprobado, ha suspendido o que hay algún error en
 	 * las notas introducidas.
 	 */
-	public void aprobado() {
+	public void notaTexto() {
 
 		if (def < 5 && def >= 0) {
-			System.out.println("suspendio");
+			System.out.println("Estás suspendido, lo siento");
 		} else {
 			if (def >= 5 && def <= 10) {
-				System.out.println("aprobado");
+				System.out.println("Has aprobado. Enhorabuena!");
 			} else {
-				System.out.println(" error en la notas");
+				System.out.println("Hay un error en las notas");
 			}
 		}
 	}
@@ -136,7 +136,7 @@ public class notas {
 
 		fc.Mostrar();
 
-		fc.aprobado();
+		fc.notaTexto();
 
 	}
 
